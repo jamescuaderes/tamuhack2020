@@ -1,4 +1,5 @@
 import React from 'react'; 
+import './Home.css';
 import NavBar from './NavBar'; 
 import {
       Collapse,
@@ -16,16 +17,25 @@ import {
 
 class Home extends React.Component{
     render(){
+        const isBackgroundRed = true;
         return(
-            
+           
+         
             <div>
-                <NavBar>  </NavBar>
-                
+            <NavBar>  </NavBar>
+            
+            
+            <img src={require('./attempt4.jpeg')} />
+            <header>
+                Benefits of Recyling:
+            </header>
+            
+          </div>
+       
+          
+        
 
-                
-                
-
-            </div>
+           
         )
 
     }
